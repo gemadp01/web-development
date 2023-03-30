@@ -11,15 +11,15 @@ body {
 }
 
 h1 {
-  font-size: 48px;
   font-weight: 700;
+  font-size: 48px;
   margin: 0 0 16px 0;
 }
 
 a {
-  font-size: 24px;
   text-decoration: none;
   color: black;
+  font-size: 24px;
 }
 
 p {
@@ -50,6 +50,7 @@ iframe {
   margin-right: 16px;
 }
 
+/* Header */
 #header {
   display: flex;
   align-items: center;
@@ -58,12 +59,11 @@ iframe {
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 99;
+  z-index: 5;
 }
 
 #header h1 {
   margin: 0;
-  user-select: none;
   animation: bounceIn 1s forwards;
 }
 
@@ -87,41 +87,25 @@ iframe {
 }
 
 nav > a {
-  position: relative;
-  margin-right: 12px;
-  font-weight: 500;
-}
-
-nav > a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 100%;
-  height: 3px;
-  background-color: #ffc108;
-  border-radius: 5px;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.5s;
+  margin-left: 12px;
 }
 
 nav > a:hover {
   color: #ffc108;
 }
-
-nav > a:hover::after {
-  transform-origin: left;
-  transform: scaleX(1);
-}
+/* End Header */
 
 /* Landing */
 #landing {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   column-gap: 16px;
 }
+
+/* #landing p {
+  margin-bottom: 32px;
+} */
 
 #landing > div {
   width: 50%;
@@ -131,8 +115,8 @@ nav > a:hover::after {
 /* About */
 #about {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   column-gap: 16px;
 }
 
@@ -159,13 +143,14 @@ nav > a:hover::after {
   background-color: #ffc108;
   margin-bottom: 16px;
 }
+
 /* End About */
 
 /* Service */
 .service-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .service-header h1 {
@@ -316,8 +301,7 @@ form button:hover {
 /* End Contact */
 
 /* Footer */
-footer {
-  /* width: 100%; */
+#footer {
   background-color: #ffc108;
   padding: 16px 128px;
   color: white;
@@ -326,20 +310,19 @@ footer {
   justify-content: space-between;
 }
 
-footer p {
+#footer p {
   width: 50%;
   color: white;
 }
 
 .social-icon {
-  /* width: 50%; */
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
+  align-items: center;
   gap: 32px;
 }
 /* End Footer */
 
+/* Media Query */
 @media only screen and (max-width: 992px) {
   #header,
   #footer {
@@ -383,10 +366,6 @@ footer p {
   .contact-detail form,
   .contact-detail > div {
     width: 100%;
-  }
-
-  .social-icon {
-    width: 50%;
   }
 }
 
