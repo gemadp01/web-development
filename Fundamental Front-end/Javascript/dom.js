@@ -1,12 +1,12 @@
 // let el = document.getElementById('div-1');
-let el = document.getElementsByTagName('div');
-console.log(el[0]);
+// let el = document.getElementsByTagName('div');
+// console.log(el[0]);
 
 // let el = document.getElementsByClassName('div-2');
 // console.log(el[0]);
 
-// let el = document.querySelector('.div-2');
-// console.log(el);
+let el = document.querySelector('div');
+console.log(el);
 
 // let el = document.getElementById('div-1');
 // el.innerHTML = 'test';

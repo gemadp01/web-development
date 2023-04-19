@@ -2,24 +2,23 @@
 
 // Type of Variable
 
-// var varVariable = "Hello from Var"
-// console.log(varVariable)
-// var varVariable = "Hello from Var below"
-// console.log(varVariable)
-// var varVariable = "Hello from Var again"
-// console.log(varVariable)
+// var varVariable = 'Hello from Var';
+// console.log(varVariable);
+// var varVariable = 'Hello from Var below';
+// console.log(varVariable);
+// var varVariable = 'Hello from Var again';
+// console.log(varVariable);
 
-// let letVariable
-// console.log(letVariable)
-// let letVariable = "Hello from Let below"
-// let letVariable = "Hello from Let again"
-// console.log(letVariable)
+// let letVariable;
+// console.log(letVariable);
+// let letVariable = 'Hello from Let below';
+// let letVariable = 'Hello from Let again';
+// console.log(letVariable);
 
 // const constVariable = "Hello from const"
 // console.log(constVariable)
 // const constVariable = "Hello from cosnt below"
 // constVariable = "Hello from const again"
-
 
 // Data Type
 
@@ -88,9 +87,9 @@
 // num1 += num2
 // console.log(num1)
 
-// let text1 = "Hello", 
-// text2 = "World", 
-// text3 = 10, 
+// let text1 = "Hello",
+// text2 = "World",
+// text3 = 10,
 // text4 = 20
 
 // console.log(text1.concat(text2))
@@ -99,7 +98,7 @@
 // console.log("Hello Angka anda = " + text3)
 
 // console.log(`Hello Angka anda sekarang = ${text3}`)
-// // 1020 
+// // 1020
 // console.log(`${text3}${text4} Hello`)
 // console.log(`${text3 + text4} Hello`)
 
@@ -145,14 +144,15 @@
 //     console.log("If 2 benar")
 // }
 
-let var1 = 10, var2 = 30, var3 = 50
+let var1 = 10,
+  var2 = 30,
+  var3 = 50;
 
 // if (10 > 30) {
 //     console.log("IF bener")
 // } else {
 //     console.log("if salah")
 // }
-
 
 // Mengecek angka diantara var1 dan var3
 
