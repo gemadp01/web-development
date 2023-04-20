@@ -54,12 +54,34 @@
 // console.log(arr2.join(" - "));
 
 // 7. forEach();
-var angka = [1,2,3,4,5,6,7,8];
-angka.forEach(function(e) {
-    console.log(e);
-})
+// var angka = [1,2,3,4,5,6,7,8];
+
+// var cetak = function(e) {
+//     console.log(e);
+// }
+// angka.forEach(cetak);
 
 
+// angka.forEach(function(e) {
+//     console.log(e);
+// })
+
+// 8. map() -> mengembalikkan array sedangkan foreach() tidak
+// var angka = [1,2,5,3,6,8,4];
+
+// var angka2 = angka.map(function(e) {
+//     return e * 2;
+// });
+// console.log(angka2.join(" - "));
+
+
+// 9. sort -> mengurutkan array
+var angka = [1,2,10,5,20,3,6,8,4];
+// console.log(angka.join(" - "));
+angka.sort(function(a,b) {
+    return a-b;
+});
+console.log(angka.join(" - "));
 
 
 
