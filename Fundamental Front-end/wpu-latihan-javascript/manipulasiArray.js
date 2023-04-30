@@ -84,8 +84,9 @@ angka.sort(function(a,b) {
 console.log(angka.join(" - "));
 
 
-
-
+// 10. Filter & Find (digunakan untuk mencari nilai pada array)
+// Find, mengembalikkan "satu" nilai
+// Filter, mengembalikkan "banyak" nilai
 
 
 
