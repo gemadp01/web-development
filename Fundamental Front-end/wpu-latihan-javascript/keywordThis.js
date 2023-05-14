@@ -32,11 +32,11 @@
 
 // cara 1 - function declaration 
 // didalamnya dapat menyimpan variable objek kosong
-// function halo() {
-//     console.log(this);
-//     console.log("halo");
-// }
-// this.halo();
+function halo() {
+    console.log(this);
+    console.log("halo");
+}
+halo();
 // this mengembalikkan objek global
 
 // cara 2 - object literal
@@ -49,9 +49,9 @@ obj.halo();
 // this, mengembalikkan objek yang bersangkutan
 
 // cara 3 - constructor
-function Halo() {
-    console.log(this);
-    console.log("halo");
-}
-var obj1 = new Halo();
-var obj2 = new Halo();
+// function Halo() {
+//     console.log(this);
+//     console.log("halo");
+// }
+// var obj1 = new Halo();
+// var obj2 = new Halo();
